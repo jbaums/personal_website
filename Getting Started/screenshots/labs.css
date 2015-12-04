@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+    boarder:0;
+    
+/*    background-color: #ffffff*/
+}
+h1{
+    padding-top: 5px;
+    font-size: 55px;
+    text-shadow: 2px 2px #ffd700;
+
+}
+h2{
+    font-size: 45px;
+    align-content: center;
+    align-self: center;
+    width: 60%;
+    float:inherit;
+    padding-left: 200px;
+    padding-top: 10px;
+    text-shadow: 2px 2px #075316;
+}
+p{
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+#wrapper{
+    boarder: 1px solid #ff0000;
+   
+    
+}
+#header{
+    text-align: center;
+    boarder-bottom: 1px solid#dd2b2b;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+#main{
+    background-image:
+    background-repeat: repeat-y;
+}
+#menu{
+    width:170px;
+    float:left;
+    padding: 8px;
+    boarder-right: 1px solid #000;
+    color:000;
+}
+#content{
+    margin-left: 170px;
+    boarder-left: 1px solid #000;
+    font-style: normal;
+    color: white;
+    padding: 10px;
+    line-height: 2em;
+    
+}
+#footer{
+    boarder-top: 10px solid #000;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: lower-alpha;
+    margin: 0;
+    padding: 0;
+    width: 170px;
+    background-color: #484848;
+}
+
+li a {
+    
+    display: block;
+    color: #ffffff;
+    padding: 8px 0 8px 1px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #090a09;
+    color: white;
+    border-color: red;
+}
+
+body {
+  padding-top: 5px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),  url(https://upload.wikimedia.org/wikipedia/commons/c/c5/Moraine_Lake_17092005.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
